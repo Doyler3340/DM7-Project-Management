@@ -9,6 +9,7 @@ th{
   font-size: 400%;
   font-family: "Audiowide", sans-serif;
   margin-bottom: 15px;
+  margin-left: 60px;
 }
 #title{
   color: black;
@@ -23,14 +24,25 @@ th{
   height: 50px;
   float: right;
   padding: 5px 0px 0px 0px;
-  margin-right: 180px;
+  margin-right: 0px;
   margin-bottom: 30px;
 }
-
+.loginbutton{
+  margin: 0;
+  border-radius: 10px;
+  width: 70px;
+  height: 69px;
+  float: right;
+  padding: 10px 0px 10px 0px;
+  margin-bottom: 20px;
+}
+.loginbutton button{
+  padding: 12px 10px 12px 10px;
+}
 /*HOME PAGE*/
 
 /*HEADER IMAGE*/
- .container{
+ .container_header{
    background: url(img/newheader.png);
    height: 220px;
    width:85%;
@@ -149,30 +161,66 @@ th{
   text-align: justify;
 }
 /*TRACKING PAGE*/
-.main_track{
-  height: 640px;
+.formtrack{
   margin: auto;
   width: 40%;
-  margin-top: 150px;
+  margin-top: 50px;
   
 }
-.main_track form{
+#delivery{
+  height: 360px;
+}
+#repair{
+height: 460px;  
+}
+
+#delivery form{
   justify-content: center;
   align-items: center;
   position: absolute;
   padding: 50px;
   width: 40%;
-  border: 3px solid #88b9b9;
+  border: 3px solid #a188b9;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 5px 5px 10px #b9cac8;
+  box-shadow: 5px 5px 10px #74667f;
 }
+#repair form{
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 50px;
+  width: 40%;
+  border: 3px solid #739ad9;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 10px #777d88;
+}
+
+/*delivery and repair tracking page*/
+.progress{
+  width: 400px;
+  margin: auto;
+}
+
+.trackdel{
+  width: 900px;
+  margin: auto;
+   margin-top: 80px;
+  margin-bottom: 100px;
+  padding: 40px;
+  border: 10px solid #5F9EA0;
+  border-radius: 15px 50px;
+  text-align: center;
+}
+
 /*TIPS PAGE*/
 .main_tips{
   height: 1500px;
   margin: auto;
   width: 80%;
   padding: 10px;
+  margin-bottom: 100px;
 }
 .main_tips h1{
   text-align: center;
@@ -193,7 +241,7 @@ th{
 
 .main_tips h3{
   margin: 20px;
-	width: 1400px;
+	width: 1050px;
 	padding: 5px;
 	border-bottom: 2px solid #000;
   
