@@ -34,41 +34,64 @@
   					<li><a class="dropdown-item" href="about.html">About</a></li>
   					<li><a class="dropdown-item" href="tracking.html">Track</a></li>
             <li><a class="dropdown-item" href="tips.html">Tech Tips</a</li>
-  					<li><a class="dropdown-item" href="shop.html">Shop</a></li>
+            <li><a class="dropdown-item" href="repair.html">Repair</a></li>
+            <li><a class="dropdown-item" href="shop.html">Shop</a></li>
   					<li><a class="dropdown-item" href="contact.html">Contact</a></li>
   				</ul>
   			</div>
   		</th>
+      <th><div class="loginbutton">
+        <a href="login.html" target="_blank"><button type="button" class="btn btn-dark btn-sm">Log In</button></a>
+      </div></th>
       </tr>
   	</thead>
   	</table>
 </div>
 <div class="main_track">
-
-
-  <form>
-      <div class="col-md-12 position-relative">
-        <label for="validationTooltip01" class="form-label">Email address:</label>
-        <input type="email" class="form-control" id="validationTooltip01" aria-describedby="emailHelp" placeholder="example@gmail.com" 
- >
-        <div class="valid-tooltip">
-      Looks good!
-    </div>
-        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        
-      </div>
-    
-      <div class="col-12 position-relative">
-        <label for="usr">Tracking reference number:</label>
-        <input type="text" class="form-control" id="usr" >
-      </div>
+  <div class="formtrack" id="delivery">
+    <h2>Delivery Tracking:</h2>
+    <form>
+        <div class="col-md-12 position-relative">
+          <label for="validationTooltip01" class="form-label">Email address:</label>
+          <input type="email" class="form-control" id="validationTooltip01" aria-describedby="emailHelp" placeholder="example@gmail.com" 
+   >
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
       
-    <button type="submit" class="btn btn-primary mt-3">Submit</button>
-  </form>
-
-  
+        <div class="col-12 position-relative">
+          <label for="usr">Tracking reference number:</label>
+          <input type="text" class="form-control" id="usr" >
+        </div>
+        
+        <a href="tracked_delivery.html"><button type="button" class="btn btn-outline-primary mt-3">Submit</button></a>
+      </form>
+    </div>
+    
+   <div class="formtrack" id="repair">
+     <h2>Repair Tracking Progress:</h2>
+      <form>
+        <div class="col-md-12 position-relative">
+          <label for="validationTooltip01" class="form-label">Email address:</label>
+          <input type="email" class="form-control" id="validationTooltip01" aria-describedby="emailHelp" placeholder="example@gmail.com" 
+   >
+          <div class="valid-tooltip">
+          Looks good!
+          </div>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+      
+        <div class="col-12 position-relative">
+          <label for="usr">Tracking reference number:</label>
+          <input type="text" class="form-control" id="usr" >
+        </div>
+        
+        <a href="tracked_repair.html"><button type="button" class="btn btn-outline-primary mt-3">Submit</button></a>
+      </form>
+    </div> 
 </div>
-
 
   <div id="footer" >
     <div class="grid-container">
